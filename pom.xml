@@ -9,10 +9,14 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>interview-commom</module>
-        <module>interview-test</module>
-        <module>interview-leetcode</module>
-        <module>interview-exam</module>
+        <module>shilong-commom</module>
+        <module>shilong-test</module>
+        <module>shilong-leetcode</module>
+        <module>shilong-exam</module>
+        <module>shilong-others</module>
+        <module>shilong-notes</module>
+        <module>shilong-carl</module>
+        <module>shilong-interview</module>
     </modules>
 
     <properties>
