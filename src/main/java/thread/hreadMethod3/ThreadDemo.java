@@ -1,7 +1,7 @@
 package thread.hreadMethod3;
 
 
-import jdk.nashorn.internal.ir.CallNode;
+
 
 public class ThreadDemo {
 	public static void main(String[] args){

@@ -7,6 +7,13 @@
     <groupId>com.shilong</groupId>
     <artifactId>interview</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>interview-commom</module>
+        <module>interview-test</module>
+        <module>interview-leetcode</module>
+        <module>interview-exam</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

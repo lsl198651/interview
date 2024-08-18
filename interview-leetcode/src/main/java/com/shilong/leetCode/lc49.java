@@ -1,4 +1,4 @@
-package leetCode;
+package com.shilong.leetCode;
 
 import java.util.*;
 

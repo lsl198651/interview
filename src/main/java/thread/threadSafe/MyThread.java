@@ -1,6 +1,7 @@
 package thread.threadSafe;public class MyThread extends Thread{
-	static int ticket=0;
 	static final Object obj=new Object();
+	static int ticket=0;
+
 	@Override
 	public void run() {
 
@@ -16,6 +17,7 @@ package thread.threadSafe;public class MyThread extends Thread{
 
 			ticket++;
 			System.out.println(getName()+"is saleing no."+ticket+" ticket");
-		}}
+		}
+		}
 	}
 }

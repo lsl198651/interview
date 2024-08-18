@@ -1,4 +1,4 @@
-package leetCode;
+package com.shilong.leetCode;
 
 public class ListNode {
 	int val;	//数值 data

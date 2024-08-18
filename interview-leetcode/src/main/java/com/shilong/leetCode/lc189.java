@@ -1,4 +1,4 @@
-package leetCode;
+package com.shilong.leetCode;
 
 public class lc189 {
 	public static void main(String[] args){
@@ -14,12 +14,7 @@ public class lc189 {
 			}else{
 				temp[i]=nums[i-k];
 			}
-
 		}
 		nums=temp;
-
-
-
-
 	}
 }
