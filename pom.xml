@@ -17,6 +17,7 @@
         <module>shilong-notes</module>
         <module>shilong-carl</module>
         <module>shilong-interview</module>
+        <module>shilong-internship</module>
     </modules>
 
     <properties>

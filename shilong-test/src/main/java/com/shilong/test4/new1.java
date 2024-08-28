@@ -1,24 +1,19 @@
+package com.shilong.test4;
+
 import java.util.Arrays;
 
 
 public class new1 {
 	public static void main(String[] args){
-//		就这样写
-//		左边是思路
-//运行，复制，刷新一下，
 
-//		你问问面试官这个怎么运行不了
-//				okkk
-//	定义了两个字符串s1和s2，以及两个整数n和m分别表示它们的长度。
 		String s1 = "ab";
 		String s2 = "eidbaooo";
-
-				int n = s1.length(), m = s2.length();
+		int n = s1.length(), m = s2.length();
 //	如果s1的长度大于s2的长度，则直接输出false，因为s1的任何排列都不可能是s2的子串。
 				if (n > m) {
 					System.out.println(false);
 				}
-//	定义了两个长度为26的整型数组cnt1和cnt2，分别用于统计字符串s1和s2中每个字符出现的次数。这里假设字符串只包含小写字母
+	//定义了两个长度为26的整型数组cnt1和cnt2，分别用于统计字符串s1和s2中每个字符出现的次数。这里假设字符串只包含小写字母
 				int[] cnt1 = new int[26];
 				int[] cnt2 = new int[26];
 //	遍历字符串s1和s2的前n个字符，统计它们的字符出现次数，并存储在数组cnt1和cnt2中。

@@ -2,23 +2,23 @@ package thread.waitAndNotify;public class Foodie extends Thread{
 	@Override
 	public void run() {
 		while(true){
-			synchronized (Desk.lock){
-				if(Desk.count==0){
+			synchronized (thread.waitAndNotify.Desk.lock){
+				if(thread.waitAndNotify.Desk.count==0){
 					break;
 				}else {
-					if(Desk.foodflag==0){
+					if(thread.waitAndNotify.Desk.foodflag==0){
 						try {
-							Desk.lock.wait();
+							thread.waitAndNotify.Desk.lock.wait();
 						} catch (InterruptedException e) {
 							throw new RuntimeException(e);
 						}
 
 					}else {
-						Desk.count--;
-						System.out.println("吃货正在吃第"+Desk.count+"份食物");
-						Desk.lock.notifyAll();
+						thread.waitAndNotify.Desk.count--;
+						System.out.println("吃货正在吃第"+ thread.waitAndNotify.Desk.count+"份食物");
+						thread.waitAndNotify.Desk.lock.notifyAll();
 
-						Desk.foodflag=0;
+						thread.waitAndNotify.Desk.foodflag=0;
 
 					}
 				}

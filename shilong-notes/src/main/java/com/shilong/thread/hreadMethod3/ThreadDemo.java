@@ -5,8 +5,8 @@ package thread.hreadMethod3;
 
 public class ThreadDemo {
 	public static void main(String[] args){
-		MyThread1 t1 = new MyThread1();
-		MyThread2 t2 = new MyThread2();
+		thread.hreadMethod3.MyThread1 t1 = new thread.hreadMethod3.MyThread1();
+		thread.hreadMethod3.MyThread2 t2 = new thread.hreadMethod3.MyThread2();
 
 		t1.setName("tiangou");
 t2.setName("nvshen");
