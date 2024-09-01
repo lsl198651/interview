@@ -1,4 +1,4 @@
-package thread.threadCase;public class threadTest1 {
+package com.shilong.thread.threadCase;public class threadTest1 {
 	public static void main(String[] args){
 //		第一种多线程启动方法
 //		没有返回值

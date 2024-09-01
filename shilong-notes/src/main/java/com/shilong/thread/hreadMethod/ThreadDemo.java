@@ -1,6 +1,5 @@
 package com.shilong.thread.hreadMethod;
 
-
 public class ThreadDemo {
 	public static void main(String[] args){
 		MyThread t1 = new MyThread();

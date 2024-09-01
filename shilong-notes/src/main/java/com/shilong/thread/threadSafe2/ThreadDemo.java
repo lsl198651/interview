@@ -1,4 +1,4 @@
-package thread.threadSafe2;
+package com.shilong.thread.threadSafe2;
 
 
 

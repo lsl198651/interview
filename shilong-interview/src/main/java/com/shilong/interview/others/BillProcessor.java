@@ -1,4 +1,4 @@
-package com.shilong.interview;
+package com.shilong.interview.others;
 //美在美团商城升了个商铺，商铺里有3天货物：A/B/C，但是小美有以下规定：
 //		1.每个顾客必须且只能买一个A类货物
 //		2.每个顾密只能买最多5个B或者C类货物
@@ -80,7 +80,7 @@ import java.util.*;
 //		scanner.close();
 //	}
 //}
-import java.util.*;
+
 
 class BillProcessor {
 

@@ -1,4 +1,4 @@
-package thread.waitAndNotify;
+package com.shilong.thread.waitAndNotify;
 
 import java.util.concurrent.locks.ReentrantLock;
 

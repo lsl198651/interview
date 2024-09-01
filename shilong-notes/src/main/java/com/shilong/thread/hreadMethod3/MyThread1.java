@@ -1,4 +1,4 @@
-package thread.hreadMethod3;public class MyThread1  extends Thread{
+package com.shilong.thread.hreadMethod3;public class MyThread1  extends Thread{
 
 	@Override
 	public void run() {

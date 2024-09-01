@@ -1,4 +1,4 @@
-package com.shilong.interview;import java.util.*;
+package com.shilong.interview.others;import java.util.*;
 
 public class MergeArrays {
 	public static List<Integer> mergeAndReturnMaxN(int[] a, int[] b, int n) {

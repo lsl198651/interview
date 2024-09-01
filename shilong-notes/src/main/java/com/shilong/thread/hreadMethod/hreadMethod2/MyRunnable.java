@@ -1,4 +1,4 @@
-package thread.hreadMethod2;public class MyRunnable implements Runnable{
+package com.shilong.thread.hreadMethod.hreadMethod2;public class MyRunnable implements Runnable{
 
 	@Override
 	public void run() {

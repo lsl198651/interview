@@ -1,7 +1,6 @@
-package thread.waitAndNotify;
+package com.shilong.thread.waitAndNotify;
 
 
-import thread.threadSafe2.MyThread;
 
 public class ThreadDemo {
 	public static void main(String[] args){

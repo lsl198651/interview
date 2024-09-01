@@ -1,10 +1,12 @@
-package thread.threadCase;
+package com.shilong.thread.threadCase;
+
+import com.shilong.thread.threadCase.MyCallabel;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 public class threadTest3 {public static void main(String[] args) throws ExecutionException, InterruptedException {
-	thread.threadCase.MyCallabel mc = new thread.threadCase.MyCallabel();
+	MyCallabel mc = new MyCallabel();
 	FutureTask<Integer> integerFutureTask = new FutureTask<>(mc);
 
 	Thread t1 = new Thread(integerFutureTask);

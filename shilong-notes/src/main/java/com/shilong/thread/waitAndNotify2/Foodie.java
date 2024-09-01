@@ -1,4 +1,4 @@
-package thread.waitAndNotify2;
+package com.shilong.thread.waitAndNotify2;
 
 import java.util.concurrent.ArrayBlockingQueue;
 

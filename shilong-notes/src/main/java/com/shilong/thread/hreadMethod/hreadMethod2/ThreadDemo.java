@@ -1,4 +1,4 @@
-package thread.hreadMethod2;public class ThreadDemo {
+package com.shilong.thread.hreadMethod.hreadMethod2;public class ThreadDemo {
 	public static void main(String[] args){
 		MyRunnable myRunnable=new MyRunnable();
 		Thread t1=new Thread(myRunnable);

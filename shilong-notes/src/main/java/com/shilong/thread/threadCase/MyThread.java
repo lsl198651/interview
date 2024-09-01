@@ -1,4 +1,4 @@
-package thread.threadCase;
+package com.shilong.thread.threadCase;
 public class MyThread extends  Thread{
 	@Override
 	public void run() {

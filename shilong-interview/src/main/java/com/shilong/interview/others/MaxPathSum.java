@@ -1,4 +1,4 @@
-package com.shilong.interview;import java.util.Scanner;
+package com.shilong.interview.others;import java.util.Scanner;
 
 public class MaxPathSum {
 	public static void main(String[] args) {

@@ -1,9 +1,10 @@
-package thread.threadCase;public class threadTest2 {
+package com.shilong.thread.threadCase;
+public class threadTest2 {
 	public static void main(String[] args){
 //		第二种多线程启动方法
 		//		没有返回值
 
-		thread.threadCase.MyRun myRun=new thread.threadCase.MyRun();
+		MyRun myRun=new MyRun();
 		Thread t1=new Thread(myRun);
 		Thread t2=new Thread(myRun);
 		Thread t3=new Thread(myRun);

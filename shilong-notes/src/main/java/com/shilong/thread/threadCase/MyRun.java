@@ -1,4 +1,4 @@
-package thread.threadCase;
+package com.shilong.thread.threadCase;
 public class MyRun implements Runnable{
 	@Override
 	public void run() {

@@ -1,4 +1,4 @@
-package thread.threadCase;
+package com.shilong.thread.threadCase;
 
 import java.util.concurrent.Callable;
 

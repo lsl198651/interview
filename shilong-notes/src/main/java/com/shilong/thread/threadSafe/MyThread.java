@@ -1,4 +1,4 @@
-package thread.threadSafe;public class MyThread extends Thread{
+package com.shilong.thread.threadSafe;public class MyThread extends Thread{
 	static final Object obj=new Object();
 	static int ticket=0;
 
